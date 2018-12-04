@@ -1,3 +1,29 @@
+/* color palette
+#2B2042 - dark blue
+#8099AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+ */
+
 body {
     background: lightblue;
 }
+
+/* header and footer */
+
+header,footer {
+    background: #2B2042;
+}
+
+/* work experience  */
+
+.work{
+    background: #EDF2F4;
+}
+
+/* education */
+
+.education {
+    background: #8099AE;
+}
+    
