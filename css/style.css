@@ -5,16 +5,67 @@
 #EF233C - red
  */
 
+ /* global styles  */
 body {
-    background: lightblue;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+a {
+    color: #EF233C;
+}
+
+a:hover {
+    text-decoration:none;
+
+}
+
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
 /* header and footer */
 
 header,footer {
     background: #2B2042;
+    color: #8099AE;
 }
 
+/* header */
+header h1, header h2 {
+    color:#EDF2F4;
+
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+   
+    padding: 10px;
+    display: inline-block;
+
+}
 /* work experience  */
 
 .work{
