@@ -52,15 +52,19 @@ a:hover {
     overflow: auto;
 }
 
-/*  
+ 
 .col-narrow {
     width: 30%;
+    float:left;
+    
 }
 
 .col-wide {
     width:70%;
+    float: left;
+    padding-left: 20px;
+    
 }
-*/
 
 /* header and footer */
 
@@ -72,10 +76,8 @@ header,footer {
 /* header */
 
 .profile-img {
-    width:300px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
+ 
 }
 
 
